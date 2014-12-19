@@ -1,0 +1,4 @@
+USE GSMAND2
+
+
+DELETE A1_ImportArtikel

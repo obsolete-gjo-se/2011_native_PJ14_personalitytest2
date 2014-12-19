@@ -1,0 +1,23 @@
+
+
+
+1. connect.inc.php -> Datei mit Verbindungsdaten zum MySQL-Server
+2. index.php -> Die Seite mit dem Formular zum Anmelden
+3. logout.php -> Die Seite, die nach dem Logout angezeigt wird und die die Session zerstört
+///4. neu.php -> Die Seite, in der ein neuer Benutzer angelegt wird
+5. sichere_seite.php -> Die Seite, die nach erfolgreichem LogIn angezeigt wird
+6. style.css -> Die Seite, die das Aussehen aller php-Dateien bestimmt
+
+jeweilige Alternativen dazu: 
+http://www.ayom.com/topic-25749.html
+
+
+
+
+01&nbsp;&nbsp;CREATE TABLE 'users' (
+02&nbsp;&nbsp;&nbsp;&nbsp;'id' int(2) unsigned NOT NULL auto_increment,
+03&nbsp;&nbsp;&nbsp;&nbsp;'user' varchar(20) NOT NULL default '',
+04&nbsp;&nbsp;&nbsp;&nbsp;'pass' varchar(50) NOT NULL default '',
+05&nbsp;&nbsp;&nbsp;&nbsp;PRIMARY KEY  ('id')
+06&nbsp;&nbsp;)
+
